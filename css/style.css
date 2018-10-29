@@ -502,13 +502,13 @@ body {
     color: #787b80;
 }
 
-.partners {
+.contact {
     padding: 50px 0 70px;
     text-align: center;
     background-color: #50c3af;
 }
 
-.partners-title {
+.contact-title {
     position: relative;
     margin-bottom: 65px;
     font-family: pt-sans-bold;
@@ -517,7 +517,7 @@ body {
     color: #ffffff;
 }
 
-.partners-title::before {
+.contact-title::before {
     content: "";
     position: relative;
     right: 5px;
@@ -527,7 +527,7 @@ body {
     background: url("../images/star.png") no-repeat;
 }
 
-.partners-title::after {
+.contact-title::after {
     content: "";
     position: absolute;
     display: block;
@@ -539,23 +539,23 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.partners-menu {
+.contact-menu {
     margin: 0;
     list-style: none;
 }
 
-.partners-menu-item {
+.contact-menu-item {
     display: inline-block;
     padding-right: 50px;
 }
 
-.partners-link {
+.contact-link {
     font-size: 26px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.partners-link:hover {
+.contact-link:hover {
     color: #ffffff;
 }
 
@@ -589,20 +589,21 @@ body {
 }
 
 .copyright-elena {
-    color: #787b80;}
+    color: #787b80;
+}
 
 .social {
     float: right;
-
 }
 
 .social-btn {
     display: inline-block;
+    padding-right: 10px;
     vertical-align: top;
     font-size: 0;
     width: 18px;
     height: 18px;
-    background: no-repeat center;
+    background: no-repeat top;
     transition: 0.3s;
 }
 
