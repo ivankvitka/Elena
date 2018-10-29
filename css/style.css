@@ -84,6 +84,7 @@ body {
 
 .menu-item {
     display: inline-block;
+    padding-right: 40px;
 }
 
 .item-link {
@@ -92,7 +93,6 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
-    padding-right: 40px;
 }
 
 .item-link:hover {
@@ -133,7 +133,6 @@ body {
     left: 30px;
 }
 
-
 .btn {
     display: inline-block;
     padding: 8px 17px;
@@ -156,7 +155,6 @@ body {
     font-size: 15px;
     text-transform: uppercase;
 }
-
 
 .btn-blue {
     background-color: #50c3af;
@@ -289,7 +287,6 @@ body {
     line-height: 24px;
     color: #787b80;
 }
-
 
 .supported-template {
     padding-top: 68px;
@@ -424,13 +421,12 @@ body {
 }
 
 .feedback-send::before {
-    background-image: url("../images/plane.png") ;
+    background-image: url("../images/plane.png");
 }
 
 .feedback-nice::before {
     background-image: url("../images/pencil.png");
 }
-
 
 .feedback-item::after {
     content: "";
@@ -511,7 +507,6 @@ body {
     text-align: center;
     background-color: #50c3af;
 }
-
 
 .partners-title {
     position: relative;
