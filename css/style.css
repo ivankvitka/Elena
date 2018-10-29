@@ -204,7 +204,7 @@ body {
     transform: translate(-50%);
     width: 42px;
     height: 42px;
-    background-repeat: no-repeat;
+    background: url("../images/spritesheet.png") no-repeat;
 }
 
 .level-title::after {
@@ -215,15 +215,15 @@ body {
 }
 
 .level-professionals::before {
-    background-image: url("../images/face.png");
+    background-position: -39px -5px;
 }
 
 .level-amateurs::before {
-    background-image: url("../images/heart.png");
+    background-position: -112px -5px;
 }
 
 .level-for-everyone::before {
-    background-image: url("../images/headset.png");
+    background-position: -33px -46px;
 }
 
 .level-title {
@@ -313,7 +313,7 @@ body {
     bottom: 0;
     width: 24px;
     height: 24px;
-    background: url("../images/circle.png") no-repeat;
+    background: url("../images/spritesheet.png") no-repeat -5px -5px;
 }
 
 .supported-template-title::after {
@@ -417,15 +417,15 @@ body {
     display: block;
     width: 25px;
     height: 20px;
-    background-repeat: no-repeat;
+    background: url("../images/spritesheet.png") no-repeat;
 }
 
 .feedback-send::before {
-    background-image: url("../images/plane.png");
+    background-position: -112px -50px;
 }
 
 .feedback-nice::before {
-    background-image: url("../images/pencil.png");
+    background-position: -82px -50px;
 }
 
 .feedback-item::after {
@@ -524,7 +524,7 @@ body {
     display: inline-block;
     width: 17px;
     height: 16px;
-    background: url("../images/star.png") no-repeat;
+    background: url("../images/spritesheet.png") no-repeat -5px -79px;
 }
 
 .contact-title::after {
@@ -598,13 +598,13 @@ body {
 
 .social-btn {
     display: inline-block;
-    padding-right: 10px;
+    margin-right: 10px;
     vertical-align: top;
     font-size: 0;
     width: 18px;
     height: 18px;
-    background: no-repeat top;
     transition: 0.3s;
+    background: url("../images/spritesheet.png") no-repeat;
 }
 
 .social-btn:hover {
@@ -612,14 +612,14 @@ body {
 }
 
 .social-gp {
-    background-image: url("../images/google+.png");
+    background-position: -5px -46px;
 }
 
 .social-fb {
-    background-image: url("../images/facebook.png");
+    background-position: -92px -5px;
 }
 
 .social-tw {
-    background-image: url("../images/twitter.png");
+    background-position: -112px -79px;
 }
 
