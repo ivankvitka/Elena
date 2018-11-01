@@ -39,13 +39,13 @@
 }
 
 body {
-    width: 800px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -56,9 +56,11 @@ body {
 }
 
 .page-header {
+    margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 120px;
     background: url("../images/header.jpg") no-repeat;
+    background-size: 100%;
     text-align: center;
     box-sizing: border-box;
 }
@@ -66,6 +68,7 @@ body {
 .header-logo {
     display: block;
     padding: 0;
+    line-height: 50px;
     margin-bottom: 30px;
     font-family: belinda;
     font-size: 52px;
@@ -100,7 +103,7 @@ body {
 }
 
 .header-title {
-    margin-bottom: 30px;
+    margin: 0px 0px 30px;
     font-family: ubuntu-bold;
     font-size: 53px;
     text-transform: uppercase;
@@ -108,7 +111,7 @@ body {
 }
 
 .header-promo {
-    margin-bottom: 80px;
+    margin: 0 0 80px;
     font-family: pt-sans-bold;
     font-size: 15px;
     text-transform: uppercase;
@@ -158,26 +161,32 @@ body {
 
 .btn-blue {
     background-color: #50c3af;
+    transition: 0.3s;
 }
 
 .btn-gray {
     background-color: #787b80;
+    transition: 0.3s;
 }
 
 .btn-blue:hover {
-    background-color: #00c38f;
+    background-color: #00C38F;
+    box-shadow: -1em 0 0 0 #00C38F, 1em 0 0 0 #00C38F;
 }
 
 .btn-blue:active {
     background-color: #418D7A;
+    box-shadow: -1em 0 0 0 #418D7A, 1em 0 0 0 #418D7A;
 }
 
 .btn-gray:hover {
     background-color: #585b60;
+    box-shadow: -1em 0 0 0 #585b60, 1em 0 0 0 #585b60;
 }
 
 .btn-gray:active {
     background-color: #9ea1a6;
+    box-shadow: -1em 0 0 0 #9ea1a6, 1em 0 0 0 #9ea1a6;
 }
 
 .levels {
@@ -546,7 +555,7 @@ body {
 
 .contact-menu-item {
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 
 .contact-link {
